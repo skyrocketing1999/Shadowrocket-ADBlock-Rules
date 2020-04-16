@@ -24,7 +24,6 @@ rules_url = [
     'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-annoyance.txt',
     'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt',
     'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
-    'https://filters.adtidy.org/extension/chromium/filters/3.txt',
     'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt',
     'https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt',
     'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt',
