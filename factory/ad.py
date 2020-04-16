@@ -13,12 +13,24 @@ import re
 
 
 rules_url = [
-    # EasyList China
-    #'https://easylist-downloads.adblockplus.org/easylistchina.txt',
-    # EasyList + China
-    'https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt',
     # 乘风 广告过滤规则
-    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt'
+    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
+    # 自建规则
+    'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
+    'https://adaway.org/hosts.txt',
+    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt',
+    'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
+    'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
+    'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-annoyance.txt',
+    'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt',
+    'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
+    'https://filters.adtidy.org/extension/chromium/filters/3.txt',
+    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt',
+    'https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt',
+    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt',
+    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt',
+    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt',
+    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
 ]
 
 rule = ''
