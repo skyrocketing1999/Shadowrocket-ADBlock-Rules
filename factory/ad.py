@@ -14,22 +14,26 @@ import re
 
 rules_url = [
     # 乘风 广告过滤规则
-    'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
+    #'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     # 自建规则
     'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
     'https://adaway.org/hosts.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt',
+    'https://filters.adtidy.org/extension/chromium/filters/14.txt',
+    'https://filters.adtidy.org/extension/chromium/filters/11.txt',
+    'https://gitee.com/halflife/list/raw/master/ad.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
+    'https://www.fanboy.co.nz/r/fanboy-ultimate.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-annoyance.txt',
-    'https://gitee.com/cjx82630/cjxlist/raw/master/cjx-ublock.txt',
     'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/resource-abuse.txt',
-    'https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/badware.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt',
-    'https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/unbreak.txt',
-    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
+    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
+    'http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts',
+    'https://raw.githubusercontent.com/vokins/yhosts/master/hosts',
+    'https://hosts.nfz.moe/full/hosts',
+    'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts',
+    'https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt',
+    'https://raw.githubusercontent.com/vokins/yhosts/master/data/tvbox.txt',
+    'https://raw.githubusercontent.com/lack006/Android-Hosts-L/master/hosts_files/2017_hosts/AD',
+    'https://raw.githubusercontent.com/easonjim/blackhosts/master/hosts'
 ]
 
 rule = ''
@@ -112,9 +116,9 @@ print('done.')
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
-        file_ad = open('resultant/ad.list', 'w', encoding='utf-8')
+        file_ad = open('ad.list', 'w', encoding='utf-8')
     else:
-        file_ad = open('resultant/ad.list', 'w')
+        file_ad = open('ad.list', 'w')
 except:
     pass
 
