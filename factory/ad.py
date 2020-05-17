@@ -17,23 +17,10 @@ rules_url = [
     #'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     # 自建规则
     'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
-    'https://adaway.org/hosts.txt',
-    'https://filters.adtidy.org/extension/chromium/filters/14.txt',
     'https://filters.adtidy.org/extension/chromium/filters/11.txt',
-    'https://gitee.com/halflife/list/raw/master/ad.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
-    'https://www.fanboy.co.nz/r/fanboy-ultimate.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
-    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
-    'http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts',
-    'https://raw.githubusercontent.com/vokins/yhosts/master/hosts',
-    'https://hosts.nfz.moe/full/hosts',
-    'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts',
     'https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt',
-    'https://raw.githubusercontent.com/vokins/yhosts/master/data/tvbox.txt',
-    'https://raw.githubusercontent.com/lack006/Android-Hosts-L/master/hosts_files/2017_hosts/AD',
-    'https://raw.githubusercontent.com/easonjim/blackhosts/master/hosts'
 ]
 
 rule = ''
