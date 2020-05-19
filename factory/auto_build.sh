@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Path=/root/Shadowrocket-ADBlock-Rules
+Path=/root/gitProject/Shadowrocket-ADBlock-Rules
 cd $Path
 
 git fetch --all
