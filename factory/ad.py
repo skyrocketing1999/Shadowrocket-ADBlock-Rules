@@ -20,7 +20,10 @@ rules_url = [
     'https://filters.adtidy.org/extension/chromium/filters/11.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    'https://gitee.com/privacy-protection-tools/anti-ad/raw/master/easylist.txt',
+    'https://filters.adtidy.org/extension/chromium/filters/14.txt',
+    'https://adaway.org/hosts.txt',
+    'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
+    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
 ]
 
 rule = ''
@@ -103,9 +106,9 @@ print('done.')
 file_ad = sys.stdout
 try:
     if sys.version_info.major == 3:
-        file_ad = open('ad.list', 'w', encoding='utf-8')
+        file_ad = open('resultant/ad.list', 'w', encoding='utf-8')
     else:
-        file_ad = open('ad.list', 'w')
+        file_ad = open('resultant/ad.list', 'w')
 except:
     pass
 
