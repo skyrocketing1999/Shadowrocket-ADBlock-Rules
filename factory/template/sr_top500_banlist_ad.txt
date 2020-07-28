@@ -10,3 +10,4 @@
 {{gfwlist}}
 
 FINAL,direct
+GEOIP,CN,DIRECT
