@@ -5,7 +5,7 @@
 bypass-system = true
 bypass-tun = 0.0.0.0/8, 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.168.0.0/16, 192.88.99.0/24, 198.18.0.0/15, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32
 skip-proxy = localhost, *.local, captive.apple.com, 0.0.0.0/8, 10.0.0.0/8, 17.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.168.0.0/16, 192.88.99.0/24, 198.18.0.0/15, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 240.0.0.0/4, 255.255.255.255/32
-dns-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query, https://dns.twnic.tw/dns-query
+dns-server = https://doh.pub/dns-query, https://dns.twnic.tw/dns-query
 
 [Rule]
 # (DNS Cache Pollution Protection)
@@ -49,10 +49,9 @@ DOMAIN-SUFFIX,pscp.tv,PROXY,force-remote-dns
 DOMAIN-SUFFIX,periscope.tv,PROXY,force-remote-dns
 DOMAIN-SUFFIX,t.co,PROXY,force-remote-dns
 DOMAIN-SUFFIX,twimg.co,PROXY,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,PROXY,force-remote-dns
-DOMAIN-SUFFIX,twitpic.com,PROXY,force-remote-dns
 DOMAIN-SUFFIX,vine.co,PROXY,force-remote-dns
 DOMAIN-KEYWORD,twitter,PROXY,force-remote-dns
+USER-AGENT,Twitter*,Proxy,force-remote-dns
 # > Telegram
 DOMAIN-SUFFIX,t.me,PROXY
 DOMAIN-SUFFIX,tdesktop.com,PROXY
