@@ -65,8 +65,8 @@ values['manual_direct'] = getRulesStringFromFile('manual_direct.txt', 'Direct')
 values['manual_proxy']  = getRulesStringFromFile('manual_proxy.txt', 'PROXY,force-remote-dns')
 values['manual_reject'] = getRulesStringFromFile('manual_reject.txt', 'Reject')
 
-values['gfwlist'] = getRulesStringFromFile('resultant/gfw.list', 'PROXY,force-remote-dns') \
-                  + getRulesStringFromFile('manual_gfwlist.txt', 'PROXY,force-remote-dns')
+values['gfwlist'] = getRulesStringFromFile('resultant/gfw.list', 'Proxy,force-remote-dns') \
+                  + getRulesStringFromFile('manual_gfwlist.txt', 'Proxy,force-remote-dns')
 
 
 # make confs
