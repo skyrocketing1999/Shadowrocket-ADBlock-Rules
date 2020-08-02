@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,google,Proxy,force-remote-dns
 DOMAIN-KEYWORD,blogspot,Proxy,force-remote-dns
 DOMAIN-KEYWORD,youtube,Proxy,force-remote-dns
 DOMAIN-KEYWORD,ytimg,Proxy,force-remote-dns
+DOMAIN-KEYWORD,ggpht,Proxy,force-remote-dns
 # > Facebook
 IP-CIDR,3.123.36.126/32,Proxy,no-resolve
 IP-CIDR,35.157.215.84/32,Proxy,no-resolve
