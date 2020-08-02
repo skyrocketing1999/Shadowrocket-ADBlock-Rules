@@ -1,4 +1,24 @@
 
+# (DNS Cache Pollution Protection)
+# > Twitter
+USER-AGENT,Twitter*,PROXY,force-remote-dns
+
+# (Region-Restricted Access Denied)
+USER-AGENT,Roam*,PROXY,force-remote-dns
+
+# (Apple News and Apple Map TOMTOM Version)
+USER-AGENT,AppleNews*,PROXY,force-remote-dns
+USER-AGENT,com.apple.news*,PROXY,force-remote-dns
+
+# (DIRECT)
+USER-AGENT,cloudd*,DIRECT
+USER-AGENT,com.apple.geod*,DIRECT
+USER-AGENT,com.apple.Maps,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,MicroMessenger Client,DIRECT
+USER-AGENT,WeChat*,DIRECT
+
 [URL Rewrite]
 ^http://(www.)?google.cn https://www.google.com 302
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
