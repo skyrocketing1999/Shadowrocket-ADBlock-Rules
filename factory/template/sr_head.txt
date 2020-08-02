@@ -10,20 +10,20 @@ dns-server = https://doh.pub/dns-query, https://dns.twnic.tw/dns-query
 [Rule]
 # (DNS Cache Pollution Protection)
 # > Twitter
-USER-AGENT,Twitter*,Proxy,force-remote-dns
+USER-AGENT,Twitter*,PROXY,force-remote-dns
 
 # (Region-Restricted Access Denied)
-USER-AGENT,Roam*,Proxy,force-remote-dns
+USER-AGENT,Roam*,PROXY,force-remote-dns
 
 # (Apple News and Apple Map TOMTOM Version)
-USER-AGENT,AppleNews*,Proxy,force-remote-dns
-USER-AGENT,com.apple.news*,Proxy,force-remote-dns
+USER-AGENT,AppleNews*,PROXY,force-remote-dns
+USER-AGENT,com.apple.news*,PROXY,force-remote-dns
 
 # (DIRECT)
-USER-AGENT,cloudd*,Direct
-USER-AGENT,com.apple.geod*,Direct
-USER-AGENT,com.apple.Maps,Direct
-USER-AGENT,com.apple.appstored*,Direct
-USER-AGENT,AppStore*,Direct
-USER-AGENT,MicroMessenger Client,Direct
-USER-AGENT,WeChat*,Direct
+USER-AGENT,cloudd*,DIRECT
+USER-AGENT,com.apple.geod*,DIRECT
+USER-AGENT,com.apple.Maps,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT
+USER-AGENT,AppStore*,DIRECT
+USER-AGENT,MicroMessenger Client,DIRECT
+USER-AGENT,WeChat*,DIRECT

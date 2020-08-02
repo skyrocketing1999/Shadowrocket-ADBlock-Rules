@@ -4,11 +4,11 @@
 # 包含广告过滤
 #
 
-{{manual_reject}}
-{{ad}}
 # GFWList
 {{gfwlist}}
-{{manual_direct}}
 {{manual_proxy}}
+{{manual_direct}}
+{{manual_reject}}
+{{ad}}
 # 其它地址全部直连
-FINAL,Direct
+FINAL,DIRECT
