@@ -11,4 +11,4 @@
 {{manual_direct}}
 {{manual_proxy}}
 # 其它地址全部直连
-FINAL,Direct,no-resolve
+FINAL,Direct
