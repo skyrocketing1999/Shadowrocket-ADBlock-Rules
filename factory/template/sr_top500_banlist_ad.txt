@@ -8,4 +8,7 @@
 {{ad}}
 # GFWList
 {{gfwlist}}
-FINAL,direct,no-resolve
+{{manual_direct}}
+{{manual_proxy}}
+# 其它地址全部直连
+FINAL,Direct,no-resolve

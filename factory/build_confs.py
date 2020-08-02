@@ -61,8 +61,8 @@ values['build_time'] = time.strftime("%Y-%m-%d %H:%M:%S")
 
 values['ad'] = getRulesStringFromFile('resultant/ad.list', 'Reject')
 
-values['manual_direct'] = getRulesStringFromFile('manual_direct.txt', 'Direct')
-values['manual_proxy']  = getRulesStringFromFile('manual_proxy.txt', 'PROXY,force-remote-dns')
+values['manual_direct'] = getRulesStringFromFile('manual_direct.txt', 'Direct,no-resolve')
+values['manual_proxy']  = getRulesStringFromFile('manual_proxy.txt', 'Proxy,force-remote-dns')
 values['manual_reject'] = getRulesStringFromFile('manual_reject.txt', 'Reject')
 
 values['gfwlist'] = getRulesStringFromFile('resultant/gfw.list', 'Proxy,force-remote-dns') \

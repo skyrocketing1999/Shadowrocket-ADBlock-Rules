@@ -1,7 +1,6 @@
 # 手工定义的 Direct 列表
 
 #153
-icloud-content.com
 api.cloudmobi.net
 hotmail.com
 
@@ -15,3 +14,9 @@ cabdirect.org
 ieee.org
 nature.com
 osapublishing.org
+
+#CHN Games
+kunlun-cdn.com
+brawlstars
+clashroyale
+clashofclans
