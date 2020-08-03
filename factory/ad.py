@@ -16,14 +16,15 @@ rules_url = [
     # 乘风 广告过滤规则
     #'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ABP-FX.txt',
     # 自建规则
-    'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt',
     'https://filters.adtidy.org/extension/chromium/filters/11.txt',
+    'https://filters.adtidy.org/extension/chromium/filters/224.txt',
+    'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt',
+    'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext',
+    'https://someonewhocares.org/hosts/zero/hosts',
+    'https://www.malwaredomainlist.com/hostslist/hosts.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',
-    'https://filters.adtidy.org/extension/chromium/filters/14.txt',
-    'https://adaway.org/hosts.txt',
     'https://raw.githubusercontent.com/user1121114685/koolproxyR_rule_list/master/kpr_our_rule.txt',
-    'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts',
 ]
 
 rule = ''
