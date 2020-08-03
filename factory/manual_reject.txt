@@ -94,6 +94,8 @@ wqmobile.com
 youmi.net
 zhiziyun.com
 segment.com
+sf1-ttcdn-tos.pstatp.com
+snssdk.com
 
 #新浪（可能有多余项）
 ad.sina.com.cn

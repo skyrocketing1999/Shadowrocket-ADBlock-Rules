@@ -21,6 +21,8 @@ rules_url = [
     'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt',
     'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext',
     'https://someonewhocares.org/hosts/zero/hosts',
+    'https://raw.githubusercontent.com/easylist/easylist/master/easyprivacy/easyprivacy_trackingservers.txt',
+    'https://danny0838.github.io/content-farm-terminator/files/blocklist/content-farms.txt',
     'https://www.malwaredomainlist.com/hostslist/hosts.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/rule.txt',
     'https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt',

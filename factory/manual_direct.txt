@@ -85,7 +85,6 @@ officecdn
 office365.com
 oschina.net
 ppsimg.com
-pstatp.com
 qcloud.com
 qdaily.com
 qdmm.com
